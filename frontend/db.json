@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "title": "first post",
+      "body": "this is the first post",
+      "id": "1",
+      "date": "29 Jul 2024"
+    },
+    {
+      "title": "second post",
+      "body": "this is the second post",
+      "id": "2",
+      "date": "29 Jul 2024"
+    },
+    {
+      "title": "third post",
+      "body": "this is the third post",
+      "id": "3",
+      "date": "29 Jul 2024"
+    },
+    {
+      "id": "f405",
+      "title": "post 4",
+      "body": "created new post",
+      "date": "29 Jul 2024"
+    },
+    {
+      "id": "b33f",
+      "title": "new post",
+      "body": "fjdfks",
+      "date": "29 Jul 2024"
+    },
+    {
+      "id": "7c69",
+      "title": "hello",
+      "body": "hello",
+      "date": "29 Jul 2024"
+    },
+    {
+      "id": "1af0",
+      "title": "rest client post!",
+      "body": "this was posted using rest client",
+      "date": "30 jul 2024"
+    },
+    {
+      "id": "dc57",
+      "title": "modified rest client post!",
+      "body": "this was posted using rest client",
+      "date": "30 jul 2024"
+    },
+    {
+      "id": "b09f",
+      "title": "even more modified rest client post!",
+      "body": "this was posted using rest client",
+      "date": "30 jul 2024"
+    },
+    {
+      "id": "3157",
+      "title": "testing mongo rest client post!",
+      "body": "this was posted using rest client",
+      "date": "30 jul 2024"
+    }
+  ]
+}

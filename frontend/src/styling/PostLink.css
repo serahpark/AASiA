@@ -1,0 +1,12 @@
+.postPreview {
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 8px;
+  padding: 18px;
+  box-sizing: border-box;
+  /* width: 225px;
+  height: 200px; */
+}
+
+.date {
+  color: gray;
+}

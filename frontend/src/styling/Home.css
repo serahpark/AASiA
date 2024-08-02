@@ -1,0 +1,29 @@
+.sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 280px;
+  flex-basis: 0;
+  align-items: center;
+  gap: 8px;
+}
+
+.section img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.homepageTitle {
+  text-align: center;
+  margin-top: 50px;
+}

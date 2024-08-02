@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/posts
+Content-Type: application/json
+
+{
+  "title": "auth test 3",
+  "body": "this was posted using rest client",
+
+  "user": "66aa9321bad8c58aae544192"
+}
