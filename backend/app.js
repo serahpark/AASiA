@@ -26,4 +26,8 @@ app.use('/api/users', usersRouter)
 app.use('/api/auth', authRouter)
 app.use(middleware.errorHandler)
 
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
+});
+
 module.exports = app
