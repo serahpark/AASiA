@@ -9,9 +9,7 @@ const Home = () => {
     <div className="homepage">
       <h1 className="homepageTitle">Asian American Students in Action</h1>
 
-      <Grid container spacing={2} sx={{
-        marginTop: '50px', justifyContent: 'center'
-      }}>
+      <Grid container spacing={2} sx={{ marginTop: '50px', justifyContent: 'center' }}>
         {[
           { image: teachIn, label: 'About', link: '/about'},
           { image: picnic, label: 'Community', link: '/community/forum' },
@@ -22,8 +20,7 @@ const Home = () => {
             flexDirection: 'column',
             alignItems: 'center',
             gap: '8px',
-            flexBasis: 0,
-            flexGrow: 1
+            maxWidth: { md: '100%' }
           }}>
             <img src={section.image} style={{width: '100%', height: 'auto', borderRadius: '8px'}}/>
             <Button variant="contained" color="blue" href={section.link} sx={{ textTransform: 'none', width: '75%', height: '30px' }}>{section.label}</Button>

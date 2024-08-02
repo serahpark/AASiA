@@ -4,7 +4,7 @@ const User = require('../models/user')
 const jwt = require('jsonwebtoken')
 
 const client = new OAuth2Client(process.env.GOOGLE_AUTH_CLIENT_ID)
-
+console.log(client)
 const createSessionToken = (user) => {
   return jwt.sign({ id: user.googleId, email: user.email }, process.env.GOOGLE_AUTH_CLIENT_SECRET)
 }
